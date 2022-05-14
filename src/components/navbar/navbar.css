@@ -1,0 +1,34 @@
+.navbar{
+    background-color: orangered;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.navbarContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 600;
+    display: flex;
+    font-size: larger;
+    letter-spacing: 2px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navButtons{
+    margin: 0 8px;
+    padding: 4px 10px;
+    border: none;
+    cursor: pointer;
+    color: orangered;
+}
+

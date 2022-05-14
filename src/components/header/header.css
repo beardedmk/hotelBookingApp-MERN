@@ -1,0 +1,118 @@
+.header{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 125px;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 24px 0 100px 0;
+}
+
+.headerList{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.headerListItems{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.headerListItems.active{
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 22px;
+}
+
+.headerSearchContainer{
+    width: 50%;
+}
+
+
+.headerSearch{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 3px solid darkcyan;
+    border-radius: 36px;
+    justify-content: space-around;
+    padding: 8px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcons{
+    color: orangered;
+    opacity: 65%;
+}
+
+.headerBtn{
+    background-color: orangered;
+    border: none;
+    border-radius: 18px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: rgb(48, 48, 48);
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.dateRange{
+    position: absolute;
+    top: 52px;
+    
+}
+
+.options{
+    position:absolute;
+    top: 50px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    color: gray;
+    width: 200px;
+}
+
+.optionsItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.optionCounterNumber{
+    padding: 0 10px;
+}
+
+.optionCounterBtn{
+    border: 2px solid darkgreen;
+    background-color: white;
+    font-size: larger;
+    width: 30px;
+    height: 30px;
+    color: darkgreen;
+    cursor: pointer;
+}
